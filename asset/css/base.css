@@ -1,0 +1,67 @@
+:root {
+    --white-color: #fff;
+    --text-color: #222;
+    --black-color: #000;
+    --border-color: #e8e8e8;
+    --primary-color: #f65e39;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Responsive */
+
+.grid {
+    width: 1176px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.grid__column-2-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 20%;
+}
+
+.grid__column-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 33.333%;
+}
+
+.grid__column-6 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 50%;
+}
+
+.grid__column-6--aligncenter {
+    display: flex;
+    align-items: center;
+}
+
+.grid__column-3 {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 25%;
+}
+
+.m-bt-50 {
+    margin-bottom: 50px;
+}
+
